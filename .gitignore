@@ -1,5 +1,8 @@
 /bundle
 /sessions
+/.backup
+/.undo
+/.tmp
 .DS_Store
 
 /.netrwhist
