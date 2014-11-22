@@ -1,0 +1,7 @@
+/bundle
+/sessions
+.DS_Store
+
+/.netrwhist
+/spell
+/vundle_plugins/custom
