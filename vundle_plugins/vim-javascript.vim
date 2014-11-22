@@ -1,4 +1,4 @@
-if exists('g:vundle_installing_plugins'
+if exists('g:vundle_installing_plugins')
   Plugin 'pangloss/vim-javascript'
-    finish
+  finish
 endif
