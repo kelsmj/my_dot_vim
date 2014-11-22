@@ -10,6 +10,7 @@ source ~/.vim/vundle.vim
 " Automatically detect file types. (must turn on after Vundle)
 filetype plugin indent on
 
+
 " Platform (Windows, Mac, etc.) configuration.
 source ~/.vim/platforms.vim
 " All of the Vim configuration.
