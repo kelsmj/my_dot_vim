@@ -6,7 +6,7 @@
 " Color
 " ---------------
 set background=dark
-" colorscheme jellybeans
+colorscheme jellybeans
 " Force 256 color mode if available
 if $TERM =~ "-256color"
    set t_Co=256
@@ -69,6 +69,7 @@ set nostartofline      " Don't go to the start of the line after some commands
 set scrolloff=3        " Keep three lines below the last line when scrolling
 set gdefault           " this makes search/replace global by default
 set switchbuf=useopen  " Switch to an existing buffer if one exists
+set omnifunc=syntaxcomplete#Complete
 
 " ---------------
 " Text Format
