@@ -12,3 +12,5 @@ command! -nargs=1 SilentCmd
 " Fixes common typos
 command! W w
 command! Q q
+" Trim trailing whitespace on save for .py files
+autocmd BufWritePre *.py :%s/\s\+$//e
