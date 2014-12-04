@@ -60,9 +60,9 @@ if $TMUX == ''
    set clipboard+=unnamed " Yanks go on clipboard instead.
 endif
 set autowrite          " Writes on make/shell commands
-" set timeoutlen=450     " Time to wait for a command (after leader for example).
+" set timeoutlen=1000     " Time to wait for a command (after leader for example).
 set ttimeout
-set ttimeoutlen=100    " Time to wait for a command (after leader for example).
+set ttimeoutlen=0    " Time to wait for a command (after leader for example).
 set nofoldenable       " Disable folding entirely.
 set foldlevelstart=99  " I really don't like folds.
 set formatoptions=crql
