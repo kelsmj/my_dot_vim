@@ -31,6 +31,10 @@ dependencies.
 * [underscore-cli](https://github.com/ddopson/underscore-cli) for sweet JSON
   formatting.
 
+## TMUX
+ * brew install reattach-to-user-namespace
+ * gem install tmuxinator
+ 
 ## Mappings
 
 * Nothing Currently
