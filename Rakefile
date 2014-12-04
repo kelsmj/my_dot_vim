@@ -18,7 +18,7 @@ PLUGINS_HEADER = <<-HEADER.chomp
 | -------: | :--------- | :-------------- |
 HEADER
 
-FILES_TO_LINK = %w{vimrc gvimrc}
+FILES_TO_LINK = %w{vimrc gvimrc tmux.conf}
 
 task :default => ['vim:link']
 
