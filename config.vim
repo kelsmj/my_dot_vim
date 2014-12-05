@@ -6,7 +6,7 @@
 " Color
 " ---------------
 set background=dark
-colorscheme jellybeans
+colorscheme solarized
 " Force 256 color mode if available
 if $TERM =~ "-256color"
    set t_Co=256
@@ -56,9 +56,7 @@ set wildmenu           " Turn on WiLd menu
 set hidden             " Change buffer - without saving
 set history=768        " Number of things to remember in history.
 set cf                 " Enable error files & error jumping.
-if $TMUX == ''
-   set clipboard+=unnamed " Yanks go on clipboard instead.
-endif
+set clipboard+=unnamed " Yanks go on clipboard instead.
 set autowrite          " Writes on make/shell commands
 " set timeoutlen=1000     " Time to wait for a command (after leader for example).
 set ttimeout
@@ -136,3 +134,7 @@ set mouse=a    " Mouse in all modes
 
 " Better complete options to speed it up
 set complete=.,w,b,u,U
+noremap <Up> <NOP>
+noremap <Down> <NOP>
+nnoremap <Left> @: 
+noremap <Right> <NOP>
