@@ -134,7 +134,4 @@ set mouse=a    " Mouse in all modes
 
 " Better complete options to speed it up
 set complete=.,w,b,u,U
-noremap <Up> <NOP>
-noremap <Down> <NOP>
-nnoremap <Left> @: 
-noremap <Right> <NOP>
+
