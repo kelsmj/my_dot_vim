@@ -81,7 +81,7 @@ set shiftround
 set cindent
 set autoindent
 set smarttab
-set expandtab
+set noexpandtab
 
 " ---------------
 " Searching
