@@ -17,3 +17,4 @@ nnoremap <Leader>gx :wincmd h<CR>:q<CR>
 nnoremap <leader>gi :Git<space>
 " Undo the last commit
 command! Gcundo :Git reset HEAD~1
+set diffopt=filler,vertical
