@@ -74,7 +74,9 @@ set omnifunc=syntaxcomplete#Complete
 " ---------------
 " Text Format
 " ---------------
+set textwidth=158
 set tabstop=2
+set softtabstop=2
 set backspace=indent,eol,start " Delete everything with backspace
 set shiftwidth=2 " Tabs under smart indent
 set shiftround
