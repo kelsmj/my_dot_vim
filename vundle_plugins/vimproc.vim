@@ -1,5 +1,4 @@
 if exists('g:vundle_installing_plugins')
-	Plugin 'ervandew/supertab'
-  finish
+	Plugin 'Shougo/vimproc.vim'
+	finish
 endif
-
