@@ -6,7 +6,7 @@
 " Color
 " ---------------
 set background=dark
-colorscheme solarized
+colorscheme molokai 
 " Force 256 color mode if available
 if $TERM =~ "-256color"
    set t_Co=256
@@ -137,4 +137,3 @@ set mouse=a    " Mouse in all modes
 
 " Better complete options to speed it up
 set complete=.,w,b,u,U
-
